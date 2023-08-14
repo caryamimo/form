@@ -1,0 +1,250 @@
+
+*{
+    margin: o;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(photo-1473773508845-188df298d2d1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 180vh;
+}
+.navbar{
+    width: 2000px;
+    height: 100px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: red;
+    font-size: 40px;
+    font-family: arial;
+    padding-left: 20px;
+    padding-top: 2px;
+    float: left;
+}
+.menu{
+    width: 450px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 27px;
+    font-size: 16px;
+}
+ul li a{
+    text-decoration: none ;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(231, 23, 23);
+}
+.search{
+    width: 800x;
+    float: left;
+    margin-left: 300px;
+
+}
+.srch{
+    font-family: arial;
+    width: 120px;
+    height: 40px;
+    background: rgb(88, 247, 82);
+    border: 2px solid blue;
+    margin-top: 16px;
+    color: black;
+    border-radius: 12px;
+    font-size: 16px;
+    float: left;
+    padding: 8px;
+    padding-top: 10px;
+   
+    
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(206, 154, 12);
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content .par{
+padding-left: 20px;
+padding-bottom: 25px;
+font-family: arial;
+letter-spacing: 1.2px;
+line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(138, 160, 235);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4 ease;
+
+}
+
+.cn:hover{
+    background-color: azure;
+}
+
+.content span{
+    color: orange;
+    font-size: 40px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: rgb(77, 5, 5);
+    position: absolute;
+    top: 300px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 250px;
+    font-family: arial;
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 10px;
+
+}
+
+.form input{
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: antiquewhite;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: times New Roman;
+
+
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: arial;
+}
+
+.btn{
+    width: 250px;
+    height: 30px;
+    color: black;
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: Arial;
+    border-radius: 10px;
+    border: none;
+}
+
+.btnn:hover{
+    background: white;
+    color: aqua;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link{
+font-family: Arial;
+font-size: 18px;
+padding-top: 20px;
+text-align: center;
+
+}
+
+.form .link .suh{
+  padding-left: 20px;  
+text-align: center;
+}
+
+.liw{
+padding-top: 16px;
+padding-bottom: 10px;
+text-align: center;
+
+}
+
+.social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: yellow;
+    margin-right: 0 15px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 70px;
+    color: #510ecc;
+    transition: all 0.5s ease;
+}
+social-links :hover{
+    background-color: aliceblue;
+}
+

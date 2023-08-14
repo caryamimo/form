@@ -1,0 +1,329 @@
+body, html{
+    background-color: blanchedalmond;
+    font-family: Times, serif;
+    overflow: 0px important;
+    margin: 0px important;
+    padding: 0px important;
+}
+*{
+    text-decoration: none !important;
+}
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 0 30px;
+    background-color: rgb(158, 216, 129);
+    box-shadow: 0 19px 38px rgb(36, 30, 30);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 10px;
+}
+.nav .links a{
+    margin-right: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.nav .links .mainlink{
+    color:rgb(238, 34, 34);
+}
+.nav .links a:hover{
+    columns: rgb(27, 58, 233);
+}
+.nav .links .button{
+    padding: 9px 30px;
+    margin-left: 60px;
+    display: inline-block;
+    padding: 8px 35px;
+    font-size: 16px;
+    color: black;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    text-transform: capitalize;
+    border: 2px solid rgb(247, 30, 193);
+    font-family: Playfair Display,sans-serif;
+}
+.nav .links .button:hover{
+    color: #dd2424;
+}
+/* Landing css*/
+.landingpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw 0 10vw;
+    height: 10vh;
+}
+h1{
+    font-size: 4vw;
+    margin: 0px!important;
+    color: #2437dd;
+    padding: 34px;
+    text-align: center;
+    
+}
+.landingtext h3{
+    margin: 6px !important;
+    font-size: 14px;
+    line-height: 1.2vw;
+    color: rgb(4, 20, 32);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 14px;
+    box-shadow: 0 5px 10px #2437dd;
+    background-color: rgb(173, 204, 194);
+}
+.landingtext .btn{
+    width: 40px;
+    margin-top: 30px;
+    padding: 14px;
+    background-color: rgb(25, 119, 241);
+    border-radius: 25px;
+    text-align: right;
+    margin: 6px;
+    
+}
+.landingtext .btn a{
+    color: rgb(31, 7, 7);
+    padding-left: 2px;
+}
+.landingimage{
+    width: 100vw;
+    
+}
+/* Service */
+.about{
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutText{
+    position: relative;
+    padding: 0 50px;
+    height: inherit;
+}
+.aboutText h1{
+    position: relative;
+    font-size: 30px;
+    color: blue;
+    
+    margin-bottom: 50px;
+}
+.aboutText img{
+    width: 50vw;
+    position:relative ;
+}
+.aboutList{
+    
+}
+ol{
+    list-style: none;
+    color: #2437dd;
+}
+ol li{
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid wheat;
+}
+li p{
+    font: 16px;
+    color: black;
+    padding-left: 60px;
+    line-height: 30px;
+    opacity: 0.6;
+}
+li span{
+    position: absolute;
+    line-height: 25px;
+    font-weight: 600;
+}
+/*info Section*/
+.infosection{
+    height: 600px;
+}
+.inforHeader{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.infoCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px;
+}
+.infoCards .card{
+    position: relative;
+    height: 360px;
+    width: 360px;
+    background: rgb(231, 18, 18);
+    box-shadow: 0 10px 0 22px rgba(0, 0, 0, 0.856);
+}
+.infoCards .one .cardoneImg{
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+.infoCards .two .cardtwoImg{
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+.infoCards .three .cardthreeImg{
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    right: -30px;
+}
+.cardsbgone{
+    height: 15px;
+    background-color: rgb(17, 231, 131);
+}
+.cardbgtwo{
+    height: 150px;
+    background-color: rgb(133, 231, 185);
+}
+.cardbgthree{
+    height: 150px;
+    background-color: rgb(133, 231, 185);
+}
+.cardContent{
+    padding: 0 20px;
+}
+.cardContent p{
+    line-height: 34px;
+    opacity: 0,6;
+}
+.cardContent .cardbBtn{
+    position: absolute;
+    padding: 10px;
+    right: 20px;
+    background-color: wheat;
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out .2s;
+}
+.cardContent .cardbBtn:hover{
+    background-color: azure;
+}
+.cardContent .cardBtn .cardIcon{
+    position: relative;
+    top: 6px;
+    left: 6px;
+    width: 16px;
+}
+
+/*Banner css*/
+.banner{
+    height: 400px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bannerText h1{
+    font-size: 3vw;
+    color: rgb(125, 11, 218);
+    font-weight: 600;
+    align-items: center;
+    padding-left: 300px;
+}
+.bannerText img{
+    width: 10vw;
+    margin-right: 30px;
+}
+.bannerTextImg img{
+    width: 20vw;
+}
+.Footer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom :50px;
+}
+.footerlinks a{
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.footerlinks .mainlink{
+    color: #ee1444;
+}
+.footer a:hover{
+    color: #2437dd;
+}
+
+/* Resposive*/
+ 
+@media only screen and ( max-width: 600px) {
+    .nav{
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        height: auto;
+        overflow: hidden;
+   }
+   .nav h4{
+    font-size: 6vw;
+    margin-top: 10;
+    margin-bottom: 14px;
+   }
+   .nav .links a{
+    margin-right: 25px;
+    font-size: 12px;
+    font-weight: 600;
+   }
+   /*landing css*/
+   .landing{
+    flex-direction: column-reverse;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
+   .landingText h1{
+    font-size: 6vw;
+    margin: 0 !important;
+   }
+   .landinText h3{
+    font-size: 16px;
+   }
+   .landingText .btn{
+    font-size: 3vw;
+   }
+   .landingImage img{
+    width: 52vw;
+    margin: 20px;
+   }
+   /* service */
+   .about{
+    height: auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+   }
+}
